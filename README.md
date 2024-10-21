@@ -4,7 +4,7 @@
 
 ## Experiment Datasets
 
-We select 8 single-floor scenes from the [**Replica**](https://github.com/facebookresearch/Replica-Dataset) as our experimental examples. We first collect normal motion patterns for each virtual scene. Additionally, we sample a fast motion pattern for the four scenes `room0`, `room1`, `room2` and `hotel0` as they offer more space for movement compared to the other scenes. Based on our pipeline, we generate experimental datasets as follows.
+We select 8 single-floor scenes from the [**Replica dataset**](https://github.com/facebookresearch/Replica-Dataset) as our experimental examples. We first collect normal motion patterns for each virtual scene. Additionally, we sample a fast motion pattern for the four scenes `room0`, `room1`, `room2` and `hotel0` as they offer more space for movement compared to the other scenes. Based on our pipeline, we generate experimental datasets as follows.
 > [!Note]
 > The Baidu Netdisk access password is **ylab**.
 

@@ -4,26 +4,30 @@
 
 ## Experiment Datasets
 
+### Introduction
+
 We select 8 single-floor scenes from the [**Replica dataset**](https://github.com/facebookresearch/Replica-Dataset) as our experimental examples. We first collect normal motion patterns for each virtual scene. Additionally, we sample a fast motion pattern for the four scenes `room0`, `room1`, `room2` and `hotel0` as they offer more space for movement compared to the other scenes. Based on our pipeline, we generate experimental datasets as follows.
-> [!Note]
-> The Baidu Netdisk access password is **ylab**.
 
-| Scene   | Motion Pattern | Total Size (GB) | Length (m) | Duration (s) | Link                                                             |
-|---------|----------------|------------|------------|--------------|------------------------------------------------------------------|
-| room0   | normal         | 4.52       | 27.5       | 60.1         | [Baidu Netdisk](https://pan.baidu.com/s/1rI9pEnRSdmHpIcSjs5kebA) |
-| room0   | fast           | 4.56       | 33.9       | 57.3         | [Baidu Netdisk](https://pan.baidu.com/s/12gCs-d5kNiJbNBPxQZwFjg) |
-| room1   | normal         | 4.51       | 28.4       | 59.7         | [Baidu Netdisk](https://pan.baidu.com/s/17wb-sku2SYUNtVAz_eF1KQ) |
-| room1   | fast           | 4.88       | 39.5       | 60.7         | [Baidu Netdisk](https://pan.baidu.com/s/1Chg7oRgdsup6Ayc5UQTYYQ) |
-| room2   | normal         | 3.81       | 23.3       | 49.4         | [Baidu Netdisk](https://pan.baidu.com/s/1dNr7aObjgIWTmLKatQR7PQ) |
-| room2   | fast           | 3.70       | 30.4       | 48.0         | [Baidu Netdisk](https://pan.baidu.com/s/1yNir5tZ_cyTc5Z407EqNyg) |
-| hotel0  | normal         | 5.18       | 27.7       | 61.5         | [Baidu Netdisk](https://pan.baidu.com/s/1FCItoSrWoPvwQAw6-ysNIw) |
-| hotel0  | fast           | 4.92       | 35.2       | 55.6         | [Baidu Netdisk](https://pan.baidu.com/s/1Qjfe1HMCtIExqh-tj7zAoA) |
-| office0 | normal         | 4.74       | 23.8       | 53.2         | [Baidu Netdisk](https://pan.baidu.com/s/1GA7to6wBddhZASCoU6TFwQ) |
-| office2 | normal         | 4.22       | 26.0       | 55.2         | [Baidu Netdisk](https://pan.baidu.com/s/1kAfE4SzegXUBf0H9VBZH-A) |
-| office3 | normal         | 3.72       | 25.5       | 53.0         | [Baidu Netdisk](https://pan.baidu.com/s/1Ch3FRlDr7sGIsy9x01eaCg) |
-| office4 | normal         | 3.79       | 30.2       | 53.4         | [Baidu Netdisk](https://pan.baidu.com/s/1kjQXSgJgThvjchDpplkhKQ) |
+| Scene   | Motion Pattern | Total Size (GB) | Length (m) | Duration (s) |
+|---------|----------------|-----------------|------------|--------------|
+| room0   | normal         | 4.52            | 27.5       | 60.1         |
+| room0   | fast           | 4.56            | 33.9       | 57.3         |
+| room1   | normal         | 4.51            | 28.4       | 59.7         |
+| room1   | fast           | 4.88            | 39.5       | 60.7         |
+| room2   | normal         | 3.81            | 23.3       | 49.4         |
+| room2   | fast           | 3.70            | 30.4       | 48.0         |
+| hotel0  | normal         | 5.18            | 27.7       | 61.5         |
+| hotel0  | fast           | 4.92            | 35.2       | 55.6         |
+| office0 | normal         | 4.74            | 23.8       | 53.2         |
+| office2 | normal         | 4.22            | 26.0       | 55.2         |
+| office3 | normal         | 3.72            | 25.5       | 53.0         |
+| office4 | normal         | 3.79            | 30.2       | 53.4         |
 
+### Download
+- [OneDrive](https://1drv.ms/f/c/445199ecc992ee0f/EuCoHdRwLVlBlmODhxS_gKoBj_AEbFUaOIap-FoBl4AYXg?e=Uq2KJm), password: `ylab-xrpg`
+- [Baidu Netdisk](https://pan.baidu.com/s/1coax-nFTkntwt3DWnCub-g), password: `ylab`
 
+### Dataset Structure and Usage
 
 The tree diagram after decompression of each dataset is as follows.
 ```

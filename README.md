@@ -25,7 +25,7 @@ We select 8 single-floor scenes from the [**Replica dataset**](https://github.co
 
 ### Download
 - [OneDrive](https://1drv.ms/f/c/445199ecc992ee0f/EuCoHdRwLVlBlmODhxS_gKoBj_AEbFUaOIap-FoBl4AYXg?e=Uq2KJm), password: `ylab-xrpg`
-- [Baidu Netdisk](https://pan.baidu.com/s/1coax-nFTkntwt3DWnCub-g), password: `ylab`
+- [Baidu Netdisk](https://pan.baidu.com/s/1dSLe1HjxOii0tDTVgS4LtQ), password: `ylab`
 
 ### Dataset Structure and Usage
 

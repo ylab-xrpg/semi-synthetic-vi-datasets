@@ -79,8 +79,8 @@ The `cam0` and `cam1` folders represent the left and right cameras, respectively
 - The `forward_flow` represents the optical flow values of the subsequent frame relative to the current frame, saved as 2-channel uint16 PNG images (similar to the [KITTI](https://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=flow)). To convert the u-/v-flow into floating-point values, convert the value to float, subtract 2^15, and divide the result by 64:
 
     ```python
-    flow_u = (I[:, :, 0].astype(np.float32) - 2 ** 15) / 64.0
-    flow_v = (I[:, :, 1].astype(np.float32) - 2 ** 15) / 64.0
+    flow_u = (I[:, :, 1].astype(np.float32) - 2 ** 15) / 64.0
+    flow_v = (I[:, :, 2].astype(np.float32) - 2 ** 15) / 64.0
     ```
 
 ## Code
